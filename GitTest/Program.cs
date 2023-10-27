@@ -11,7 +11,11 @@ namespace GitTest
         static void Main(string[] args)
         {
             double x1, y1, x2, y2;
+
             double d, c, s;
+
+            double pSquare, sSquare, vSquare;
+
             Random rand = new Random();
 
             x1 = rand.NextDouble() * 100;
@@ -32,6 +36,13 @@ namespace GitTest
             s = Math.PI * Math.Pow(d, 2);
 
             Console.WriteLine($"Площадь окружности (s) = {s}");
+            pSquare = d * 4;
+            sSquare = d * d;
+            vSquare = d * d * d;
+
+            Console.WriteLine($"Периметр квадрата = {pSquare}");
+            Console.WriteLine($"Площадь квадрата = {sSquare}");
+            Console.WriteLine($"Объём квадрата = {vSquare}");
 
             Console.ReadKey();
         }
