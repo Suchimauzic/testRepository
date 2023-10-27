@@ -1,0 +1,8 @@
+K:\C#\Projects\GitTest\GitTest\bin\Debug\GitTest.exe.config
+K:\C#\Projects\GitTest\GitTest\bin\Debug\GitTest.exe
+K:\C#\Projects\GitTest\GitTest\bin\Debug\GitTest.pdb
+K:\C#\Projects\GitTest\GitTest\obj\Debug\GitTest.csproj.AssemblyReference.cache
+K:\C#\Projects\GitTest\GitTest\obj\Debug\GitTest.csproj.SuggestedBindingRedirects.cache
+K:\C#\Projects\GitTest\GitTest\obj\Debug\GitTest.csproj.CoreCompileInputs.cache
+K:\C#\Projects\GitTest\GitTest\obj\Debug\GitTest.exe
+K:\C#\Projects\GitTest\GitTest\obj\Debug\GitTest.pdb
