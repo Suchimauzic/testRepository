@@ -11,7 +11,7 @@ namespace GitTest
         static void Main(string[] args)
         {
             double x1, y1, x2, y2;
-            double d, c;
+            double d, c, s;
             Random rand = new Random();
 
             x1 = rand.NextDouble() * 100;
@@ -28,6 +28,10 @@ namespace GitTest
             c = 2 * Math.PI * d;
 
             Console.WriteLine($"Длина окружности (c) = {c}");
+
+            s = Math.PI * Math.Pow(d, 2);
+
+            Console.WriteLine($"Площадь окружности (s) = {s}");
 
             Console.ReadKey();
         }
