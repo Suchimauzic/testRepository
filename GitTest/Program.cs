@@ -11,6 +11,7 @@ namespace GitTest
         static void Main(string[] args)
         {
             double x1, y1, x2, y2;
+            double d;
             Random rand = new Random();
 
             x1 = rand.NextDouble() * 100;
@@ -19,6 +20,10 @@ namespace GitTest
             y2 = rand.NextDouble() * 100;
 
             Console.WriteLine($"Точки: (x1, y1) = ({x1}, {y1}), (x2, y2) = ({x2}, {y2})");
+
+            d = Math.Sqrt(Math.Pow((x1 - y1), 2) + Math.Pow((x2 - y2), 2));
+
+            Console.WriteLine($"Длина отрезка (d) = {d}");
 
             Console.ReadKey();
         }
