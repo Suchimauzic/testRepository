@@ -27,10 +27,10 @@ namespace GitTest
             Console.WriteLine($"Длина отрезка (d) = {d}");
 
             pSquare = d * 4;
-            
+            sSquare = d * d;
 
             Console.WriteLine($"Периметр квадрата = {pSquare}");
-            
+            Console.WriteLine($"Площадь квадрата = {sSquare}");
 
             Console.ReadKey();
         }
