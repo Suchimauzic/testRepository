@@ -12,6 +12,7 @@ namespace GitTest
         {
             double x1, y1, x2, y2;
             double d;
+            double pSquare, sSquare, vSquare;
             Random rand = new Random();
 
             x1 = rand.NextDouble() * 100;
@@ -24,6 +25,12 @@ namespace GitTest
             d = Math.Sqrt(Math.Pow((x1 - y1), 2) + Math.Pow((x2 - y2), 2));
 
             Console.WriteLine($"Длина отрезка (d) = {d}");
+
+            pSquare = d * 4;
+            
+
+            Console.WriteLine($"Периметр квадрата = {pSquare}");
+            
 
             Console.ReadKey();
         }
