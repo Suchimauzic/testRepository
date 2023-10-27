@@ -28,9 +28,11 @@ namespace GitTest
 
             pSquare = d * 4;
             sSquare = d * d;
+            vSquare = d * d * d;
 
             Console.WriteLine($"Периметр квадрата = {pSquare}");
             Console.WriteLine($"Площадь квадрата = {sSquare}");
+            Console.WriteLine($"Объём квадрата = {vSquare}");
 
             Console.ReadKey();
         }
