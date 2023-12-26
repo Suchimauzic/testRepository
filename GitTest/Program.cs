@@ -44,6 +44,8 @@ namespace GitTest
             Console.WriteLine($"Площадь квадрата = {sSquare}");
             Console.WriteLine($"Объём квадрата = {vSquare}");
 
+            Console.WriteLine("Здесь типа ещё куча кода (нет), чисто просто для коммита нового");
+
             Console.ReadKey();
         }
     }
